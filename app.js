@@ -1,11 +1,13 @@
 Ext.application({
-    name: 'pandora',
+    controllers: ["Station"],
+
+    name: 'Pandora',
 
     requires: [
         'Ext.MessageBox'
     ],
 
-    views: ['Main'],
+    views: ['Main', 'StationsList', 'SongControls'],
 
     icon: {
         '57': 'resources/icons/Icon.png',
@@ -30,7 +32,7 @@ Ext.application({
         Ext.fly('appLoadingIndicator').destroy();
 
         // Initialize the main view
-        Ext.Viewport.add(Ext.create('pandora.view.Main'));
+        Ext.Viewport.add(Ext.create('Pandora.view.Main'));
     },
 
     onUpdated: function() {
