@@ -4,6 +4,8 @@ dutchphp2012-sencha
 Introduction to sencha in the Dutch php conference 2012 
 
 
+Sencha is a javascript MVC framework used for mobile and desktop applications
+
 http://www.sencha.com/
 
 

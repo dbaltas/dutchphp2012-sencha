@@ -17,3 +17,35 @@
 @include sencha-msgbox;
 
 // Your custom code goes here...
+@include pictos-iconmask('fforward');
+@include pictos-iconmask('star');
+@include pictos-iconmask('flag');
+@include pictos-iconmask('pause');
+@include pictos-iconmask('play1');
+
+.top-bar {
+    height: 90px;
+
+    .app-logo {
+        background: url(http://docs.sencha.com/touch/2-0/resources/images/logo.png) no-repeat;
+        padding-left: 25px;
+        color: white;
+        margin-right: 10px;
+    }
+}
+
+.stations-list {
+    width: 250px;
+}
+
+.coverview {
+    height: 220px;
+
+    .x-dataview-item {
+        img {
+            margin: 10px 0 10px 10px;
+            width: 200px;
+            height: 200px;
+        }
+    }
+}

@@ -1,4 +1,5 @@
 Ext.application({
+    models: ["Song", "Station"],
     controllers: ["Station"],
 
     name: 'Pandora',
@@ -7,7 +8,7 @@ Ext.application({
         'Ext.MessageBox'
     ],
 
-    views: ['Main', 'StationsList', 'SongControls'],
+    views: ['Main'],
 
     icon: {
         '57': 'resources/icons/Icon.png',
